@@ -1,0 +1,11 @@
+Exception\LoanNotFoundException.class
+Books\Book.class
+Books\BookCatalog.class
+Exception\BookNotFoundException.class
+Enums\GenderType.class
+Exception\LoanAlreadyExistsException.class
+Books\Loan.class
+Enums\LoanStatus.class
+Main\Main.class
+Books\Customer.class
+Books\Material.class
