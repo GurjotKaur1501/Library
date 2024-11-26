@@ -1,0 +1,31 @@
+1. **Kompilera**
+   beskriv:
+   Detta mål används för att kompilera projektets källkod (källkod) från
+   Java-filer till bytecode, och generera ".class"-filer i "target/classes"-mappstrukturen.
+   Det säkerställer att koden är fri från syntaxfel och beroenden.
+
+2.**Ren**
+   beskriv:
+   Det här målet tar bort alla filer som genererats under tidigare builds, som ".class"-filer, JAR- eller WAR-filer
+   och andra build-relaterade artefakter i "target"-mappen. Den används för att starta en ny
+   byggprocess från början.
+
+3. **javadoc**
+   beskriv:
+   Detta mål genererar API-dokumentation i HTML-format baserat på kommentarer i källkoden. Dokumentationen
+   sparas i "target/site/apidocs". Detta är användbart för att skapa dokumentation som kan delas med utvecklare.
+
+4. **surefire-rapport: rapport**
+   beskriv:
+   Detta mål genererar rapporter baserade på testresultaten av Maven Surefire-plugin. Rapporten innehåller detaljer
+   som vilka tester som lyckades, misslyckades eller ignorerades. Rapporten finns i Target/Site.
+
+5. **TEST**
+   beskriv:
+   Detta mål kör enhetstester i projektet med hjälp av ett testverktyg som JUnit eller TestNG.
+   Tester körs på kompilerad kod och resultaten används för att verifiera att koden fungerar som förväntat.
+
+6. **Förpackning**
+   beskriv:
+   Detta mål används för att skapa projektets distribuerbara artefakter, såsom JAR- eller WAR-filer. Den samlar
+   in all kompilerad kod, resurser och beroenden för att skapa en slutprodukt som kan distribueras eller installeras.
