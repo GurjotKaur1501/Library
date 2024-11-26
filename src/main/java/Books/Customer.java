@@ -1,8 +1,9 @@
+package Books;
+
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import utilities.GenderType;
-
+import Enums.GenderType;
 
 public class Customer {
 

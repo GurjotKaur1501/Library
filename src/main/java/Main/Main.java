@@ -1,10 +1,11 @@
-import models.Book;
-import models.BookCatalog;
-import models.BookNotFoundException;
-import models.Customer;
-import models.Loan;
-import models.LoanAlreadyExistsException;
-import utilities.GenderType;
+package Main;
+import Books.Book;
+import Books.BookCatalog;
+import Exception.BookNotFoundException;
+import Books.Customer;
+import Books.Loan;
+import Exception.LoanAlreadyExistsException;
+import Enums.GenderType;
 
 public class Main {
 

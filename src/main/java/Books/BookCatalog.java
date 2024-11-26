@@ -1,4 +1,5 @@
 package Books;
+import Exception.BookNotFoundException;
 
 public class BookCatalog {
 
@@ -13,9 +14,10 @@ public class BookCatalog {
         return nextPosition;
     }
 
-    public void addBook(Book newBook) {
+    public boolean addBook(Book newBook) {
         bookArray[nextPosition] = newBook;
         nextPosition++;
+        return false;
     }
 
     public Book findBook(String title) throws BookNotFoundException

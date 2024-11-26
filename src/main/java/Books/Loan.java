@@ -1,8 +1,8 @@
-//import java.util.Date;
+package Books;
 //import java.util.GregorianCalendar;
 
 import java.time.LocalDate;
-import utilities.LoanStatus;
+import Enums.LoanStatus;
 
 public class Loan {
 
@@ -21,6 +21,9 @@ public class Loan {
         this.book = book;
         dueDate = LocalDate.now().plusDays(14);
         status = LoanStatus.CURRENT;
+    }
+
+    public Loan(LocalDate dueDate, int durationInDays) {
     }
 
     @Override
